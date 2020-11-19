@@ -24,7 +24,7 @@ Playing with a neural network in pytorch: non-linear regression
   3. Neural network with automatic gradient computation (but still the explicit estimate update)
   4. Neural network with automatic gradient computation and automatic estimate update
 
-**DSTI_DL_Lab2**
+**DSTI_DL_Lab3**
 -----
 Training a classifier
 How to use Dataset and DataLoader
@@ -37,3 +37,12 @@ Training an image classifier
   4. Train the network on the training data
   5. Test the network on the test data
  
+**DSTI_DL_Lab4**
+-----
+Neural Network on GPU (MNIST Classifier problem)
+How to use Dataset and DataLoader
+  1. Loading the data
+  2. Making the train and test dataset iterable
+  3. Defining a model class to build Neural Network
+  4. Instantiation of the model class, the loss function (here, crossentropy), and the optimizer function to use (SDG, Adam, RMSprop, Adadelta, etc.)
+  5. Training of the model for accuracy
